@@ -1,0 +1,32 @@
+<!--
+File name:                   dicegame.html
+Description:                 Web page for rolling dice game
+Created:                     Faran Bhatti
+Edited:                      2023-02-21 by Faran Bhatti (FB)
+Last Edited:                 2023-02-23 by Faran Bhatti (FB)
+-->
+<!DOCTYPE html>
+<html lang = "en">
+    <!-- Head -->
+    <head>
+        <title>Rolling Dice Game</title>
+        <link rel = "stylesheet" href = "mystyle.css">
+        <script src="rolling.js"></script> 
+    </head>
+
+    <!-- Body -->
+    <body>
+        <h1>Welcome to the rolling dice game!</h1>
+        <div class = "outer">
+			<div id = "control">
+                <p>Number of dice
+                    <input type = "number" id = "num" value = "3">
+                    <button id = "roll" onclick="rollem()" >Roll</button>
+                </p>
+            </div>
+            <div id = "output">
+                <button id = "clear" onclick="clearme()" >Clear</button>
+            </div>
+		</div>
+    </body>
+</html>

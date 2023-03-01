@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RollingDiceGame</string>
+    <string name="WebView">WebView</string>
+</resources>

@@ -1,0 +1,34 @@
+/*
+File name:                   mystyle.css
+Description:                 Formatting for the dicegame.html
+Created:                     Faran Bhatti
+Edited:                      2023-02-21 by Faran Bhatti (FB)
+Last Edited:                 2023-02-23 by Faran Bhatti (FB)
+*/
+
+body {
+    background-color: black;
+    font-family: cursive, fantasy;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif, monospace;
+}
+input {
+    border-style: none;
+    border-bottom-style: solid;
+    border-width: thin;
+}
+div {
+    border: solid, thin, black;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
+    background: white;
+}
+.outer {
+    margin: auto;
+    max-width: 750px;
+    background: skyblue;
+}
