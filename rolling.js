@@ -8,15 +8,16 @@ Last Edited:                 2023-02-23 by Faran Bhatti (FB)
 
 // Function to compute the result of rolling a die
 function rollem() {
-    var total = 0;
-    var n = document.getElementById('num').value;
-    var p = "";
-    for (let i = 0; i < (n + 1); i++)
-    {
-        var r = Math.ceil(Math.random() * 6);
-        r += total;
-        p += "face:" + r + ", ";
+    let total = 0;
+    let n = document.getElementById('num').value;
+    let p = '';
+  
+    for (let i = 0; i < n; i++) {
+      let r = Math.ceil(Math.random() * 6);
+      total += r;
+      p += `<span><img src="${r}.jpg" alt="face ${r}" width="50" height="50"> </span>`;
     }
-    p += "Total: " + total;
-    p = document.getElementById('output').innerHTML;
-}
+  
+    p += `<br>Total: ${total}`;
+    document.getElementById('output').innerHTML = p;
+  }
