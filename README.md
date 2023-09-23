@@ -1,4 +1,4 @@
-# Android Dice Roller WebApp
+# Android Dice Roller
 
 This repository contains an Android application that integrates a WebView to present a dice rolling game. The application allows the user to roll a specified number of dice, rendering the outcome in the WebView. 
 
